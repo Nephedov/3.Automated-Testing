@@ -4,14 +4,13 @@
 
 ## Решения
 ### Задание 1, 2
-* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/.appveyor.yml">.appveyor.yml</a>.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/.appveyor.yml">.appveyor.yml</a> - для CI. Запускает SUT и прогоняет тесты.
 * <a href="https://github.com/Nephedov/3.Automated-Testing/tree/main/src/test/java/ru/netology/rest">src/test/java/ru/netology/rest</a>. - репозиторий с тестами.
-* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/resources/accounts.schema.json">accounts.schema.json</a>.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/resources/accounts.schema.json">accounts.schema.json</a> - для валидации JSON документов.
 * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV4.java">MobileBankApiTestV4.java</a>. - тестовый класс, проверяющий соответствие JSON-схеме.
 
 <a href="https://github.com/Nephedov/3.Automated-Testing/tree/main">Репозиторий</a> с проектом.
 ### Задание 3
-* <a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">build.gradle</a>.
 * <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> - класс с тестом.
 
 <a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">Репозиторий</a> с проектом.
