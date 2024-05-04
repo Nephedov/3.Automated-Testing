@@ -11,8 +11,8 @@
 
 <a href="https://github.com/Nephedov/3.Automated-Testing/tree/main">Репозиторий</a> с проектом.
 ### Задание 3
-* <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/build.gradle">build.gradle</a>.
-* <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> - класс с тестом.
+* <a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">build.gradle</a>.
+* <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> - класс с тестом.
 
 <a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">Репозиторий</a> с проектом.
 ## Что было сделано
