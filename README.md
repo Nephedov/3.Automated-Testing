@@ -4,39 +4,39 @@
 
 ## Решения
 ### Задание 1, 2
-* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/427581b7729b140fb92d98c498d6e0120bb9fc9d/.appveyor.yml">.appveyor.yml</a>.
-* <a href="https://github.com/Nephedov/3.Automated-Testing/tree/427581b7729b140fb92d98c498d6e0120bb9fc9d/src/test/java/ru/netology/rest">src/test/java/ru/netology/rest</a>. - репозиторий с тестами.
-* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/427581b7729b140fb92d98c498d6e0120bb9fc9d/src/test/resources/accounts.schema.json">accounts.schema.json</a>.
-* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/427581b7729b140fb92d98c498d6e0120bb9fc9d/src/test/java/ru/netology/rest/MobileBankApiTestV4.java">MobileBankApiTestV4.java</a>. - тестовый класс, проверяющий соответствие JSON-схеме.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/.appveyor.yml">.appveyor.yml</a>.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/tree/main/src/test/java/ru/netology/rest">src/test/java/ru/netology/rest</a>. - репозиторий с тестами.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/resources/accounts.schema.json">accounts.schema.json</a>.
+* <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV4.java">MobileBankApiTestV4.java</a>. - тестовый класс, проверяющий соответствие JSON-схеме.
 
 <a href="https://github.com/Nephedov/3.Automated-Testing/tree/main">Репозиторий</a> с проектом.
 ### Задание 3
 * <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/build.gradle">build.gradle</a>.
 * <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> - класс с тестом.
 
-<a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/d85cee350ae36a2a37f33a09aff34b7a17bf4c41">Репозиторий</a> с проектом.
+<a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">Репозиторий</a> с проектом.
 ## Что было сделано
 ### Задание 1, 2
 * Настроен <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/build.gradle">build.gradle</a> с зависимостями:
   * JunitJupier.
   * Rest-Assured.
   * Rest-Assured:json-schema-validator.
-* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/3.Automated-Testing/blob/427581b7729b140fb92d98c498d6e0120bb9fc9d/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
-* Составлена <a href="https://github.com/Nephedov/3.Automated-Testing/blob/427581b7729b140fb92d98c498d6e0120bb9fc9d/src/test/resources/accounts.schema.json">JSON-схема</a> для валидации JSON документов.
+* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
+* Составлена <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/resources/accounts.schema.json">JSON-схема</a> для валидации JSON документов.
 * Дописаны тестовые классы проверяющие API:
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV1.java">MobileBankApiTestV1.java</a>.
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV2.java">MobileBankApiTestV2.java</a>.
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV3.java">MobileBankApiTestV3.java</a>.
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV4.java">MobileBankApiTestV4.java</a>.
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV5.java">MobileBankApiTestV5.java</a>.
-  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/6a7c417d580950e60fa79ccce8ca2914eb94ece4/src/test/java/ru/netology/rest/MobileBankApiTestV6.java">MobileBankApiTestV6.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV1.java">MobileBankApiTestV1.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV2.java">MobileBankApiTestV2.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV3.java">MobileBankApiTestV3.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV4.java">MobileBankApiTestV4.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV5.java">MobileBankApiTestV5.java</a>.
+  * <a href="https://github.com/Nephedov/3.Automated-Testing/blob/main/src/test/java/ru/netology/rest/MobileBankApiTestV6.java">MobileBankApiTestV6.java</a>.
 
  ### Задание 3
-* Настроен <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/build.gradle">build.gradle</a> с зависимостями:
+* Настроен <a href="https://github.com/Nephedov/3.2.Automated-Testing/tree/main">build.gradle</a> с зависимостями:
   * JunitJupier.
   * Rest-Assured.
-* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
-* Реализован класс <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/d85cee350ae36a2a37f33a09aff34b7a17bf4c41/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> c тестовым сценарием API запроса.
+* Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
+* Реализован класс <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> c тестовым сценарием API запроса.
  
 ## Задача №1: настройка CI
 
