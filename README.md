@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ac678v0uix87hc0k?svg=true)](https://ci.appveyor.com/project/Nephedov/testapi)
 
-# Домашнее задание к занятию «1.2. Тестирование API, CI»
+# «Тестирование API, CI»
 
 ## Решения
 ### Задание 1, 2
