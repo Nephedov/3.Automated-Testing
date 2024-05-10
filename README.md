@@ -36,7 +36,10 @@
   * Rest-Assured.
 * Подключен к проекту AppVeyor. Настроен <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/.appveyor.yml">appveyor.yml</a>. Добавлен бейдж в README.md, о статусе сборки при пуше.
 * Реализован класс <a href="https://github.com/Nephedov/3.2.Automated-Testing/blob/main/src/test/java/ru/netology/PostmanEchoTest.java">PostmanEchoTest.java</a> c тестовым сценарием API запроса.
- 
+
+---
+---
+
 ## Описание Задания №1: настройка CI
 
 Ваш целевой сервис (SUT — System under test), расположен в файле [app-mbank.jar](app-mbank.jar), этот же файл используется в примерах на лекции. Вам нужно его положить в каталог `artifacts` вашего проекта, который необходимо создать.
